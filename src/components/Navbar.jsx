@@ -54,8 +54,8 @@ const Navbar = () => {
             Red Bus
         </Title>
         <Right>
-            <Link to='/register'><NavItem>Register</NavItem></Link>
-           <Link to='/'><NavItem>Login</NavItem></Link>
+            <Link to='/register' style={{textDecoration: "none"}}><NavItem>Register</NavItem></Link>
+           <Link to='/' style={{textDecoration: "none"}}><NavItem>Login</NavItem></Link>
         </Right>
       
     </Container>
